@@ -1,0 +1,11 @@
+CatBoost __sklearn_tags__ issue workaround
+
+- Symptom: CatBoostClassifier object has no attribute __sklearn_tags__ when used inside sklearn Pipeline/GridSearchCV.
+- Workaround A (quick): Remove/disable CatBoost from the models dict used in GridSearchCV.
+- Workaround B (proper): Upgrade catboost to a version compatible with your scikit-learn.
+
+Commands:
+  pip install -U catboost
+
+After upgrade, re-enable CatBoost in the notebook models dict.
+
