@@ -1,0 +1,4 @@
+00_projects/04_rice_disease_classification/data/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+00_projects/04_rice_disease_classification/data/**/*.png filter=lfs diff=lfs merge=lfs -text
+00_projects/04_rice_disease_classification/data/**/*.JPG filter=lfs diff=lfs merge=lfs -text
+00_projects/04_rice_disease_classification/data/**/*.PNG filter=lfs diff=lfs merge=lfs -text
